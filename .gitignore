@@ -6,3 +6,4 @@ snapshots/*
 .venv/
 
 # ignore the data because it's too big
+../roco-dataset/data/
