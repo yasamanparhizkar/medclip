@@ -1,3 +1,8 @@
 *.Identifier
 *.pyc
 snapshots/*
+
+# ignore the virtual environment
+.venv/
+
+# ignore the data because it's too big

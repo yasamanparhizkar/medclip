@@ -7,6 +7,9 @@ import pandas as pd
 import streamlit as st
 from transformers import CLIPProcessor, AutoTokenizer
 
+# add medclip to the python path
+import sys
+sys.path.insert(0, 'F:\\Users\\yasam\\Documents\\GitHub\\medclip')
 from medclip.modeling_hybrid_clip import FlaxHybridCLIP
 
 
